@@ -12,9 +12,9 @@ public class KafkaProducer {
 
 	private KafkaTemplate<String, String> kafkaTemplate;
 
-	public KafkaProducer(KafkaTemplate<String, String> kafakTemplate) {
+	public KafkaProducer(KafkaTemplate<String, String> kafkaTemplate) {
 		super();
-		this.kafkaTemplate = kafakTemplate;
+		this.kafkaTemplate = kafkaTemplate;
 	}
 	
 	public void sendMessage(String message) {
